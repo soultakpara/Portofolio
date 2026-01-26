@@ -60,20 +60,19 @@ export default function TechnicalStacks() {
       {/* Carrousel mobile / Grid desktop */}
       <div className="max-w-6xl mx-auto">
         <div className="
-          flex md:grid md:grid-cols-3 gap-8 
-          overflow-x-auto md:overflow-visible 
-          px-2 scrollbar-hide
+          grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 
+          px-2
         ">
           {stacks.map((stack, index) => (
             <div
               key={index}
               className="
-                min-w-[250px] md:min-w-0
-                flex-shrink-0
+                flex flex-col items-center text-center
                 bg-white/5 p-8 rounded-xl shadow-xl 
                 transition-all duration-300 
                 hover:scale-105 hover:bg-white/10
                 backdrop-blur-md relative group
+                w-full
               "
             >
               {/* Neon gradient on hover */}
