@@ -29,7 +29,7 @@ export default function HeroSection() {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1R4nh_nI9YfKMDwN2UmkkJ-2EhMMQRPu7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1gS19cm9ff7gyUsA62nBkdblrZrlVMdRg/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block"
